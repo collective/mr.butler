@@ -1,0 +1,4 @@
+- create VMs
+- install all dependencies on all OSs
+- install and run UI-Installer
+- report results to one page/mail/irc
