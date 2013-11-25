@@ -1,3 +1,9 @@
+# Dirs we dont want in vcs
+local
+lib
+share
+include
+
 # Compiled source #
 ###################
 *.com
