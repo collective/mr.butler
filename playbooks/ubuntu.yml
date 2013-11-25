@@ -1,2 +1,9 @@
 ---
 # Ubuntu Playbook
+
+- hosts: ubuntu1204
+  user: test
+  sudo: yes
+
+  roles:
+   - apt-update
