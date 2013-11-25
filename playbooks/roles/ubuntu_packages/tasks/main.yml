@@ -24,8 +24,10 @@
     - git
     - vim
 
-- name: Download ZPS
-  command: /usr/bin/wget -P /root http://www.apt.leftxs.org/stable/python-rt.zps_0.9.4-1_all.deb
+#- name: Download ZPS
+#  command: /usr/bin/wget -P /root http://www.apt.leftxs.org/stable/python-rt.zps_0.9.4-1_all.deb
 
-- name: Install ZPS
-  command: /usr/bin/dpkg -i /root/python-rt.zps_0.9.4-1_all.deb
+#- name: Install ZPS
+#  command: /usr/bin/dpkg -i /root/python-rt.zps_0.9.4-1_all.deb
+
+#Todo: remove not needed packages aka zps for example

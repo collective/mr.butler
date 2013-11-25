@@ -1,0 +1,11 @@
+---
+# This role will run the Plone Installer in standalone mode
+
+- name: Untar Installer
+  sudo: False
+  command: tar -xf Plone-4.3.2-UnifiedInstaller.tgz
+
+- name: Run Installer
+  sudo: False
+  command: ./Plone-4.3.2-UnifiedInstaller/install.sh standalone
+

@@ -6,4 +6,7 @@
   sudo: yes
 
   roles:
-   - apt-update
+#   - apt-update
+#   - ubuntu_packages
+#   - download_plone_installer
+   - run_installer
