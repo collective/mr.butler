@@ -1,0 +1,4 @@
+poor human test:
+check build dir for install.log, grep for "Installation has failed"
+
+
